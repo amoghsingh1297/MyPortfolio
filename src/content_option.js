@@ -1,156 +1,141 @@
-const logotext = "JOHN";
+const logotext = "AMOGH SINGH";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Amogh Singh",
+    description: "I’m Amogh Singh. I love to code and enjoy spending time in solving coding problems",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Amogh Singh",
     animated: {
         first: "I love coding",
         second: "I code cool websites",
         third: "I develop mobile apps",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
-};
+    description: "",
+    your_img_url: "images/Display_picture.jpg",
+};   
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "A Bit About Myself",
+    aboutme: "Passionate Computer Science Grad student with an aptitude for learning and exploring new technologies. Strong knowledge of Python Programming Language with the ability to successfully treat large sized Data. Hands-on experience of implementing projects on cleaning, visualization of data and building data apps. Quick learner and a great team player who can also work well independently.",
 };
+const educationtimeline = [{
+    institution: "Clemson University",
+    degree: "Master's in Computer Science",
+    date: "Jan 2021 - Dec 2021",
+},
+{
+    institution: "University of Mumbai",
+    degree: "Bachelor's in Computer Engg",
+    date: "Aug 2015 - May 2019",
+},
+];
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+        jobtitle: "Graduate Teaching Assistant",
+        where: "Clemson University",
+        date: "June 2021 - December 2021",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
+        jobtitle: "Data Science Intern",
+        where: "AirrChip Inc",
+        date: "June 2020 - November 2020",
     },
     {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        jobtitle: "Database Development & Analysis Intern",
+        where: "Furus Packaging Pvt Ltd",
+        date: "June 2018 - December 2018",
     },
 ];
 
 const skills = [{
-        name: "Python",
+        name: "Python-Scripting (Python/BeautifulSoup/NumPy/Pandas)",
         value: 90,
     },
     {
-        name: "Djano",
+        name: "Database Management (MySQL/MongoDB/PostgreSQL)",
         value: 85,
     },
     {
-        name: "Javascript",
+        name: "Frontend Javascript Frameworks (React, Bootstrap, Angular )",
         value: 80,
     },
     {
-        name: "React",
-        value: 60,
+        name: "Backend Javascript Frameworks (Node, Express)",
+        value: 80,
     },
     {
-        name: "Jquery",
+        name: "Cloud (AWS, GCP, Docker)",
         value: 85,
     },
+    {
+        name: "Softwares (Visual Studio, Jupyter, Spyder )",
+        value: 80,
+    },
+    
 ];
 
 const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "AWS Certified: Cloud Practitioner",
+        description: "Issued by AMAZON WEB SERVICES Training and Certification.",
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Data Science Foundations",
+        description: "Issued by Neebal Initiative.",
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Python For Data Science, AI & Development",
+        description: "Issued by Coursera.",
     },
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "images/Russel_pic.PNG",
+        desctiption: "NBA Player Salary Prediction",
+        link: "https://github.com/amoghsingh1297/Salary-Prediction-NBA-Dataset",
+    },
+    {
+        img: "images/login.png",
+        desctiption: "MeTube System- A Youtube Clone",
+        link: "https://github.com/clarson98/MeTube",
+    },
+    {
+        img: "images/movies.PNG",
+        desctiption: "Movie Recommender System",
+        link: "https://github.com/amoghsingh1297/Movie-Recommender",
+    },
+    {
+        img: "images/taxi.jpg",
+        desctiption: "Taxi Cab Fare Prediction",
+        link: "https://github.com/amoghsingh1297/Taxi-Cab-Fares-",
+    },
+    {
+        img: "images/gym_mze.PNG",
+        desctiption: "Solving Gym-Maze scenario using RL techniques",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "images/Clemson.PNG",
+        desctiption: "Clemson Data Analysis",
+        link: "https://github.com/amoghsingh1297/Clemson-Data_Analysis",
     },
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
-    // creat an emailjs.com account 
+    YOUR_EMAIL: "amoghss@clemson.edu",
+    YOUR_PHONE: "(864)324-3962",
+    description: "Let me hear from you if you like my work. Send me a text to plan meetups to discuss innovative ideas with a cup of coffee..",
+    // create an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
+    YOUR_SERVICE_ID: "service_dtwju1r",
+    YOUR_TEMPLATE_ID: "template_hlkhj9g",
+    YOUR_USER_ID: "XlCbSpZ9weDPhKLXs",
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    github: "https://github.com/amoghsingh1297/",
+    facebook: "https://facebook.com/amogh.singh12",
+    linkedin: "https://linkedin.com/amoghsingh/",
+    twitter: "https://twitter.com/AmoghSi29391105",
     youtube: "https://youtube.com",
     twitch: "https://twitch.com",
 };
@@ -158,6 +143,7 @@ export {
     meta,
     dataabout,
     dataportfolio,
+    educationtimeline,
     worktimeline,
     skills,
     services,
